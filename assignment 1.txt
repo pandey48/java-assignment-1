@@ -1,0 +1,12 @@
+				 JAVA ASSIGNMENT-1 (7PM BATCH)
+Ques. 1. When was java develope and who is the inventor of java? Why we use java for programming?
+Ques. 2. What are the features of java.
+Ques. 3. what is JDK, JRE, JVM?
+Ques. 4. what is the structure of java program. write a program to print hello world.
+Ques. 5. Define Variables in java. Explain different scope of variable.
+Ques. 6. Define data types in java.
+Ques. 7. What is type casting in java?
+Ques. 8. Write a program to add two number by taking input from user.
+Ques. 9. Define operator and its type?
+Ques. 10. Write a program individually to perform operators operation.
+
