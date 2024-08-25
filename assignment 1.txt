@@ -1,12 +1,123 @@
-				 JAVA ASSIGNMENT-1 (7PM BATCH)
-Ques. 1. When was java develope and who is the inventor of java? Why we use java for programming?
-Ques. 2. What are the features of java.
-Ques. 3. what is JDK, JRE, JVM?
-Ques. 4. what is the structure of java program. write a program to print hello world.
-Ques. 5. Define Variables in java. Explain different scope of variable.
-Ques. 6. Define data types in java.
-Ques. 7. What is type casting in java?
-Ques. 8. Write a program to add two number by taking input from user.
-Ques. 9. Define operator and its type?
-Ques. 10. Write a program individually to perform operators operation.
+Java Assignment -1
+Ans-1-was developed by James Gosling, who is known as the father of Java, in 1995.
+ Java high level programming
+There are many devices where Java is currently used. Some of them are as follows
+Desktop Applications such as acrobat reader, media player, antivirus, etc.
+•	Web Applications such as irctc.co.in etc.
+•	Enterprise Applications such as banking applications.
+•	Mobile
+•	Embedded System
+•	Smart Card
+•	Robotics
+•	Games, etc.
+
+Easy to learn
+Ans-2
+•	java is a object oriented programming language
+•	java high level programming language
+•	class based programming language
+•	java case sensitive programming language
+•	java used oops concept then provide high security 
+•	easy to learn
+ans-3  
+   Jdk = java development kit
+                JDK is a software development environment for Java applications
+
+ JRE = java environment
+                 kit The JRE is what you need to run Java applications. It's a part of the JDK                       can also be distributed separately to run Java applications
+
+JVM = java virtual machine  
+                       Translates bytecode into machine language
+Ans4- package assinment;
+
+public class first {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// ans 3
+		System.out.println(" hello word");
+		
+		
+	}
+ANS-5  there are three types off variable
+1.	locale variable (declared inside of a method, constructor, or code block.)
+2.	Static variable (In a class but outside of any method, constructor, or block, the static keyword is used to declare class variables,Within a class, but outside of any methods, constructors, or blocks)
+3.	Instance variable (Within a class, but outside of any methods, constructors, or blocks)
+Ans-6 
+•	  Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java.
+•	Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.
+•	Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays, String.
+Ans -9 
+       Operator in Java is a symbol that is used to perform operations between two to operant 
+•	Unary Operator (++ and –)
+•	Arithmetic Operators (+, - , *, /, %)
+•	String concatenation operator (+)
+•	Relational Operators : (<, <=, >, >=)
+•	Equality Operators (==, !=)
+Ans-7
+         Type casting is when you assign a value of one primitive data type to another type.
+Ans -8     int a,b,c;
+		Scanner input = new Scanner (System.in);
+		System.out.println(" enter a first no");
+		
+		a =input.nextInt();
+		System.out.println(" enter a second no");
+		b =input.nextInt();
+		
+		c=a+b;
+		System.out.println(  " a + b ="+c);
+Ans-10 System.out.println(" enter a key  1 for athermetic operetor 2 for assignment operetor 3 for Comparison opertor 4 for logical operetor"
+				+ " 5 for  bitwise opertor");
+		i=input.nextInt();
+		if(i== 1) {
+			System.out.println(" this is a arthemic opertor");
+			System.out.println(  " a + b =");
+			
+		}
+		else if (i==2) {
+			int j=10;
+			System.out.println(  " thise is a assignment opertor J=10"+j);
+			
+			
+		}
+		else if (i==3) {
+			
+			System.out.println(  " thise is a comprison opertor a>b"+ (a>b));
+			
+			
+		}
+		else if (i==4) {
+			int j=10;
+			System.out.println(  " thise is a logical  opertor "+ (j< a && j<b) );
+			
+			
+		}
+		else {
+			System.out.println(" please enter a valid no");
+		}
+		
+		
+		
+		
+		
+		
+		
+	}
+
+		
+
+
+           
+            
+                 
+              
+              
+
+
+
+
+
+
+
+
 
